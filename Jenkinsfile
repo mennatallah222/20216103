@@ -10,7 +10,7 @@ pipeline {
         
         stage('Run Script') {
             steps {
-                sh './run_ls.sh'
+                sh './ls_script.sh'
             }
         }
     }
